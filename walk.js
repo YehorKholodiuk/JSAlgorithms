@@ -29,10 +29,10 @@ function walkMe (directionsArray) {
     let meAt1 = 0;
     let meAt2 = 0;
     directionsArray.forEach(element => {
-        if(element == 'n') element = [0, 1];
-        if(element == 's') element = [0, -1];
-        if(element == 'e') element = [1, 0];
-        if(element == 'w') element = [-1, 0];
+        if(element === 'n') element = [0, 1];
+        if(element === 's') element = [0, -1];
+        if(element === 'e') element = [1, 0];
+        if(element === 'w') element = [-1, 0];
 
         meAt1 += element[0];
         meAt2 += element[1];
