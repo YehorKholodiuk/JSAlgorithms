@@ -17,4 +17,6 @@ function NameMe(first, last) {
     this.lastName = last;
     this.name = this.firstName + ' ' + this.lastName;
 }
+console.log(NameMe('John','json'))
+
 
