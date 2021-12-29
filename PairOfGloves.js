@@ -30,4 +30,4 @@ function numberOfPairs(gloves)
     });
     return pairs;
 }
-console.log(numberOfPairs(['red','green','red','blue','blue']))
+console.log(numberOfPairs(['red','green','green','red','blue','blue']))
